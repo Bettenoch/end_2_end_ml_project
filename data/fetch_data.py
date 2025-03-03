@@ -17,3 +17,8 @@ def load_housing_data():
     return pd.read_csv(Path("datasets/housing/housing.csv"))
 
 housing = load_housing_data()
+
+# housing.head()
+# housing.info() #get full information
+# housing["ocean_priximity"].value_counts() #get categorical values
+# housing.describe() # describes the numerical values including the std, mean max , percentiles and more...
